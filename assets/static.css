@@ -1,0 +1,6 @@
+@import "materialize/css/materialize.min.css";
+
+body{
+    font-family: sans-serif;
+    background: #fafafa;
+}
