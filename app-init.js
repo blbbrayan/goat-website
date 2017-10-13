@@ -12,6 +12,7 @@
     goat.router.addRoute('/', 'home', ["data"]);
     goat.router.addRoute('/home', 'home');
     goat.router.addRoute('/other', 'other');
+    goat.router.addRoute('/todos', 'todos');
 
     goat.router.start();
 

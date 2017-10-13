@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">Todos!</span>
+                <table>
+                    <tr>
+                        <th>userId</th>
+                        <th>title</th>
+                        <th>completed</th>
+                    </tr>
+                    <tr for="todos:todo">
+                        <td>
+                            <span link="$:todo.userId"></span>
+                        </td>
+                        <td>
+                            <span link="$:todo.title"></span>
+                        </td>
+                        <td>
+                            <span link="$:todo.completed"></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
